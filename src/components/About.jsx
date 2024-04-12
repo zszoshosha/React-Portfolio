@@ -10,7 +10,7 @@ const About = () => {
         <div className="grid max-w-[1000px] w-full grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-pink-600">
-              about
+              About
             </p>
           </div>
           <div></div>
