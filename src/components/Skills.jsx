@@ -4,10 +4,10 @@ import html from "../assets/images/html.png";
 import tailwind from "../assets/images/tailwind.png";
 import deploy from "../assets/images/images.png";
 import Firebase from "../assets/images/firebase.png";
-import material from "../assets/images/material-ui.png"; 
-import react from "../assets/images/react.png"; 
+import material from "../assets/images/material-ui.png";
+import react from "../assets/images/react.png";
 import javascript from "../assets/images/javascript.png";
-import Jest  from "../assets/images/Jest .png";
+import Jest from "../assets/images/Jest .png";
 import Bootstrap from "../assets/images/Bootstrap .png";
 
 import Githup from "../assets/images/github.png";
@@ -28,7 +28,10 @@ const Skills = () => {
   const [active, setActive] = useState(false);
   const handleCard = () => setActive(!active);
   return (
-    <div name="skills" className=" bg-[#0a192f] w-full min-h-[700px] text-gray-300 flex flex-col">
+    <div
+      name="skills"
+      className=" bg-[#0a192f] w-full min-h-[700px] text-gray-300 flex flex-col"
+    >
       <div className="flex flex-col justify-center mx-auto p-4 max-w-[1000px] w-full h-screen">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
@@ -38,10 +41,7 @@ const Skills = () => {
         </div>
         <div className="grid w-full grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 ">
           {/* card div for html */}
-          <div
-            onClick={handleCard}
-            className=" shadow-md shadow-[#eb4b7b] hover:scale-110 duration-500 p-4 group py-auto max-h-40"
-          >
+          <div className=" shadow-md shadow-[#eb4b7b] hover:scale-110 duration-500 p-4 group py-auto max-h-40">
             <img className="w-20 mx-auto" src={html} alt="" />
             <div className="flex pt-6 justify-between items-center">
               <p className=" text-2xl"> html </p>
@@ -50,7 +50,7 @@ const Skills = () => {
           {/* card div for css */}
           <div
             onClick={handleCardCss}
-            className=" shadow-md shadow-[#eb4b7b] hover:scale-110 duration-500 p-4 group py-auto"
+            className=" shadow-md shadow-[#eb4b7b] hover:scale-110 duration-500 p-4 group py-auto h-fit"
           >
             <img className="w-20 mx-auto" src={css} alt="" />
             {/* div for navlist */}
@@ -109,9 +109,8 @@ const Skills = () => {
               </div>
               <div className="flex mt-4 justify-between flex-auto  ">
                 <p className=" text-xl">Jest </p>
-                <img className="w-8 h-8 " src={Jest } alt="" />
+                <img className="w-8 h-8 " src={Jest} alt="" />
               </div>
-
             </div>
             <div className="flex pt-6 justify-between items-center flex-none">
               <p className=" text-2xl"> Javascript </p>

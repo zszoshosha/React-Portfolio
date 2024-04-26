@@ -3,13 +3,19 @@ import workOne from "../assets/images/workOne.jpg";
 import workTwo from "../assets/images/workTwo.jpg";
 const Works = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
+    <div
+      name="work"
+      className="w-full h-full text-gray-300 bg-[#0a192f] pb-[40px]"
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
             Works
           </p>
-          <p className="py-4"> //check out some of my recent work </p>
+          <p className="py-4">
+            {" "}
+            // check out some of my recent work with React{" "}
+          </p>
         </div>
 
         {/* contaier div */}
@@ -22,15 +28,20 @@ const Works = () => {
             {/* hover div */}
             <div className=" opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                3D PORTFOLIO
+                PORTFOLIO
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://react-portfolio-226cf.firebaseapp.com/" rel="noopener noreferrer"
+                  target="_blank" >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/zszoshosha/React-Portfolio"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -45,15 +56,23 @@ const Works = () => {
             {/* hover div */}
             <div className=" opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                WEBSITE FOR BANK
+                Modern bank
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  href="https://project-for-bank-20f2d.firebaseapp.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/zszoshosha/hoo-bank"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>

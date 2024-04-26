@@ -9,20 +9,18 @@ const Hero = () => {
       className="bg-[#0a192f] w-full h-screen px-6 z-10 pt-[130px]"
     >
       {/* container */}
-      <div  className="flex flex-col justify-center h-full md:pl-[170px] max-w-[1200px] mx-auto ">
+      <div className="flex flex-col justify-center h-full md:pl-[170px] max-w-[1200px] mx-auto ">
         <p className="text-pink-600">Hi there , welcome to my portfolio</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
-          I'm zezo magdy
-        </h1>
+        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">I'm</h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0] flex flex-col">
           {" "}
-          <span className="text-pink-600 py-3">front-end developer</span>React{" "}
+          zezo magdy
+          <span className="text-pink-600 py-3">front-end developer</span>{" "}
         </h2>
-        <p className="text-[#2e323d] py-4 max-w-[700px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-          consequatur earum consequuntur accusamus id laudantium quaerat ipsa ex
-          nam velit, quis quasi, commodi, officiis voluptatum error
-          exercitationem iste distinctio esse!
+        <p className="text-[#717684] py-4 max-w-[700px]">
+          Experienced Frontend Developer specializing in React with one year of
+          hands-on experience. Proficient in building dynamic and responsive web
+          applications.
         </p>
         <div>
           <Link

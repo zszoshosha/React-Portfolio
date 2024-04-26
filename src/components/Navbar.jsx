@@ -102,12 +102,12 @@ const Navbar = () => {
         </ul>
       </div>
       {/* social links */}
-      <div className=" hidden md:flex fixed flex-col left-0 top-[35%]">
+      <div className=" hidden xl:flex fixed flex-col left-0 top-[35%]">
         <ul>
           <li className="flex w-[160px] h-[50px] justify-between items-center  ml-[-95px] hover:ml-[4px] duration-300 ">
             <a
               className=" rounded-lg flex justify-evenly items-center w-full h-full text-gray-300  bg-blue-600"
-              href="https://www.linkedin.com/in/zezo-shosha-922181239/"
+              href="https://www.linkedin.com/in/zezo-shosha-922181239/" rel="noopener noreferrer" target="_blank"
             >
               <p className="text-lg font-bold">Linkedin</p>{" "}
               <FaLinkedin size={25} />
@@ -116,7 +116,7 @@ const Navbar = () => {
           <li className="flex w-[160px] h-[50px] justify-between items-center  ml-[-95px] hover:ml-[4px] duration-300 ">
             <a
               className=" rounded-lg flex justify-evenly items-center w-full h-full text-gray-300  bg-[#333333]"
-              href="https://github.com/zszoshosha"
+              href="https://github.com/zszoshosha" rel="noopener noreferrer" target="_blank"
             >
               <p className="text-lg font-bold">Github</p> <FaGithub size={30} />
             </a>
@@ -124,7 +124,7 @@ const Navbar = () => {
           <li className="flex w-[160px] h-[50px] justify-between items-center  ml-[-95px] hover:ml-[4px] duration-300 ">
             <a
               className=" rounded-lg flex justify-evenly items-center w-full h-full text-gray-300  bg-[#6fc2be]"
-              href="mailto:zshosha424@gmail.com"
+              href="mailto:zshosha424@gmail.com" rel="noopener noreferrer" target="_blank"
             >
               <p className="text-lg font-bold">Email</p>{" "}
               <HiOutlineMail size={30} />
@@ -133,7 +133,7 @@ const Navbar = () => {
           <li className="flex w-[160px] h-[50px] justify-between items-center  ml-[-95px] hover:ml-[4px] duration-300 ">
             <a
               className=" rounded-lg flex justify-evenly items-center w-full h-full text-gray-300  bg-[#565f69]"
-              href="/"
+              href="/" rel="noopener noreferrer" target="_blank"
             >
               <p className="text-lg font-bold">Resume</p>{" "}
               <BsFillPersonLinesFill size={30} />

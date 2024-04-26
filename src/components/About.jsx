@@ -17,16 +17,18 @@ const About = () => {
         </div>
         <div className="grid max-w-[1000px] w-full sm:grid-cols-2 gap-8 ">
           <div className="sm:text-right text-4xl font-bold">
-            <p >
-              Hi , iam clint ,nice to meet you , please take a look around
-            </p>
+            <p>Hello. i'm Zezo nice to meet you, please take a look around </p>
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-              cumque voluptatum, doloribus optio, labore tempora officiis
-              delectus eligendi placeat expedita dolorum? Cum non tenetur
-              accusamus itaque vitae? Mollitia, sint possimus?
+              I possess a strong foundation in JavaScript and have developed two
+              projects utilizing React framework. Committed to continuous
+              learning, I am currently expanding my skill set by exploring
+              additional frameworks and technologies to enhance my expertise.
+              With a passion for crafting intuitive user interfaces and a
+              dedication to delivering high-quality code, I am eager to
+              contribute to innovative projects and further develop my career in
+              frontend development.
             </p>
           </div>
         </div>
